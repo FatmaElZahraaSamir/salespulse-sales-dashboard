@@ -1,0 +1,15 @@
+[project]
+name = "salespulse"
+version = "1.0.0"
+description = "Sales analytics with an AI analyst (ask your data in plain English, text-to-SQL), KPIs, RFM + K-Means segmentation, cohort retention, backtested forecasting and Excel reports"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Fatma El Zahraa Samir" }]
+
+[tool.setuptools]
+packages = ["salespulse"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
